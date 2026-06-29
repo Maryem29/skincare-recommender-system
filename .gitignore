@@ -1,7 +1,27 @@
-# Byte-compiled / optimized / DLL files
+.env
+data/*.csv
+data/*.zip
+# saved/ precomputed models
+*.pkl
+*.joblib
+model/
+
+venv/
+.venv/
 __pycache__/
+*.pyc
 *.py[codz]
 *$py.class
+
+# pycharm IDE settings
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS clutter
+.DS_Store
+Thumbs.db
 
 # C extensions
 *.so

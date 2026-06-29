@@ -1,0 +1,24 @@
+# For the data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# content based recommender
+scikit-learn==1.5.1
+
+# collaborative filtering (extension --> 1M review + Surprise)
+scikit-surprise==1.1.4
+
+# Extension for improved vectors (BERT embeddings)
+sentence-transformers==3.0.1
+
+#Web app/ GUI
+streamlit==1.36.0
+
+# Extension 3: adding explanations for recommendations using llm api
+groq==0.9.0
+python-dotenv==1.0.1
+
+# Notebook for exploration/ paper figures
+jupyter==1.0.0
+matplotlib==3.9.1
+seaborn==0.13.2
